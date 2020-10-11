@@ -2,7 +2,7 @@
 
 ### HTML, css e javascript
 
-<img src="https://raw.githubusercontent.com/Saulo-de-Souza/drag_and_drop/master/docs/img/a.gif" width="250" height="250">
+<img src="/docs/img/a.gif" width="250" height="250">
 
 #### Página (index.html):
 
