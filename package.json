@@ -4,7 +4,7 @@
   "description": "Exemplo simples de como implementar drag and drop nas paginas html",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/Saulo-de-Souza/drag_and_drop/issues"
   },
-  "homepage": "https://github.com/Saulo-de-Souza/drag_and_drop#readme"
+  "homepage": "https://github.com/Saulo-de-Souza/drag_and_drop#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4"
+  }
 }
