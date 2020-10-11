@@ -2,6 +2,8 @@
 
 ### HTML, css e javascript
 
+<img src="https://raw.githubusercontent.com/Saulo-de-Souza/drag_and_drop/master/docs/img/a.gif" width="250" height="250">
+
 #### Página (index.html):
 
 ```HTML
@@ -82,7 +84,9 @@ window.onload = function (e) {
 ```
 
 > Montando o servidor:
+
 ### Dependências:
+
 - Express
 - Morgan
 - Nodemon
