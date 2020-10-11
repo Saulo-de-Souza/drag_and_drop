@@ -1,0 +1,25 @@
+{
+  "name": "drag_drop_files",
+  "version": "1.0.0",
+  "description": "Exemplo simples de como implementar drag and drop nas paginas html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saulo-de-Souza/drag_and_drop.git"
+  },
+  "keywords": [
+    "drag",
+    "and",
+    "drop",
+    "files"
+  ],
+  "author": "Saulo de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saulo-de-Souza/drag_and_drop/issues"
+  },
+  "homepage": "https://github.com/Saulo-de-Souza/drag_and_drop#readme"
+}
