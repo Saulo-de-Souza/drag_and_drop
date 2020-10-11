@@ -12,7 +12,32 @@ body {
 }
 
 .dragover {
-  border-color: #000;
-  color: #000;
+  border-color: rgb(24, 7, 179);;
+  color: rgb(24, 7, 179);
 }
 
+.uploads {
+  width: 300px;
+}
+
+
+.uploads-visible {
+  width: 300px;
+  border:1px solid gray;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-upload {
+  width:75px;
+  height:75px;
+  border: 1px solid black;
+  border-radius: 50%;
+  overflow: hidden;
+
+  display: flex;
+
+}

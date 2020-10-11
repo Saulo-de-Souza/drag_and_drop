@@ -9,8 +9,8 @@ router.use(express.json());
 router.use(express.urlencoded({ extended: true }));
 
 router.post('/uploads', multer(multerConfig).array('file', 100), async (req, res) => {
-  console.log(req.file);
-  res.json({message: 'Ok'});
+  console.log(req.files);
+  res.json({files: [req.files]});
 });
 
 module.exports = router;

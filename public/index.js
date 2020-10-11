@@ -1,6 +1,7 @@
 window.onload = function (e) {
   (function () {
     var dropzone = document.getElementById('dropzone');
+    var uploads = document.getElementById('uploads');
 
     var upload = function (files) {
       const formData = new FormData();
@@ -18,7 +19,14 @@ window.onload = function (e) {
       })
         .then((res) => res.json())
         .then((results) => {
-          console.log(results);
+
+          uploads.innerHTML = '';
+
+          results.files[0].forEach((e, i, a) => {
+            uploads.innerHTML =  uploads.innerHTML  + `<a href="http://localhost:3000/temp/uploads/${e.filename}" target="_blank"> <img src="http://localhost:3000/temp/uploads/${e.filename}"  class="image-upload" /></a><br/>`;
+          });
+
+          uploads.className = 'uploads uploads-visible';
         })
         .catch((error) => {
           console.error(error);
